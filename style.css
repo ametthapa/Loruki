@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: rgb(59, 197, 243);
+    color:#fff;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+.logo{
+    font-size: 40px;
+
+}
+ .heading{
+     list-style: none;
+     display: flex;
+     justify-content: space-between;
+
+ }
+
+ .heading li{
+     padding:10px 20px;
+ }
